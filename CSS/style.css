@@ -1,0 +1,66 @@
+:root{
+    --darkest-brown: #5E5E5E;
+    --dark-brown: #A9968B;
+    --ligth-brown: #ECE7E5;
+    --white: #F6F5F5;
+
+}
+body{
+    background-color: var(--ligth-brown);
+    color: var(--dark-brown);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.title{
+    margin:  3rem 4rem 3rem 4rem;
+}
+
+/* ------ VERSE CARD CONTAINER------ */
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    margin: 5rem, 5rem;
+}
+.verse-contianer{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--white);
+    width: 750px;
+    border-radius: 1.5rem;
+    justify-content: center;
+}
+
+/* ------ VERSE CARD CONTENT------ */
+.cite{
+    font-size: 22px;
+    text-align: center;
+}
+
+.verse{
+    color: var(--darkest-brown);
+    font-family: 'Vollkorn', serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin:  auto 40px auto 40px;
+
+}
+
+.strong-ref{
+    font-size: 15px;
+    text-align: center;
+}
+
+/* ------ CREDITS ------ */
+.credits{
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 7rem;
+} 
+/*
+
+*/
+
